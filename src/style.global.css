@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: var(--placeholder-color);
+  font-weight: var(--placeholder-font-weight);
+}
+
+html {
+  /* http://pxtoem.com/ */
+  /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+    Arial, sans-serif; */
+  font-family: inherit;
+  /*  16px */
+  font-size: 100%;
+
+  /*  15px */
+  /* font-size: 93.8%;  */
+
+  /*  14px */
+  /* font-size: 87.5%; */
+
+  /*  12px */
+  /*  font-size: 75%;*/
+
+  /*  10px */
+  /*  font-size: 62.5%;*/
+
+  /* color theme */
+  --base-color: #000000cc;
+  --primary: #275efe;
+  --primary2: #6189ff;
+  --primary3: #000b54;
+  --bg2: #eaf0ff;
+  --link: #167efb;
+  --linkHover: #00adef;
+  --title: #031aba;
+  --primary-color: #275efe;
+  --input-border-color: #BBC1E1;
+  --placeholder-color: #AAAAAA;
+  --placeholder-font-weight: 300;
+  --shade-color: #EBF0FF;
+  --shade-color-active: #C9D7FF;
+}
+
+.full-width { width: 100%; }
+.full-height { height: 100%; }
+.box-size { box-sizing: border-box; }
+
+.sui-modal-open { overflow: hidden; }
+.sui-popover-open { overflow: hidden; }
